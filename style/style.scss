@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+  }
+  
+  .main-content {
+    width: 375px;
+    background-color: white;
+    font-family: "Montserrat";
+    border-radius: 10px;
+  }
+  
+  @media screen and (min-width: 1440px) {
+    .main-content {
+      display: flex;
+      flex-direction: row;
+      width: 1050px;
+      height: 80vh;
+    }
+  
+  }
+  .main-content-img-mobile {
+    position: relative;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  @media screen and (min-width: 1440px) {
+    .main-content-img-mobile {
+      display: none;
+    }
+  
+  }
+  .main-content-img-desktop {
+    position: relative;
+    width: 500px;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+  }
+  
+  @media screen and (max-width: 1440px) {
+    .main-content-img-desktop {
+      display: none;
+    }
+  
+  }
+  .section-container-content {
+    padding: 25px 30px;
+  }
+  
+  @media screen and (min-width: 1440px) {
+    .section-container-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      padding: 30px 100px 0 50px;
+      height: 100%;
+    }
+  
+  }
+  .section-container-content-textone {
+    letter-spacing: 5px;
+    font-size: 0.8rem;
+    color: hsl(228, 12%, 48%);
+  }
+  
+  @media screen and (min-width: 1440px) {
+    .section-container-content-textone {
+      font-size: 1rem;
+    }
+  
+  }
+  .section-container-content-texttwo {
+    padding-bottom: 25px;
+    color: hsl(228, 12%, 48%);
+  }
+  
+  @media screen and (min-width: 1440px) {
+    .section-container-content-texttwo {
+      font-size: 1.5rem;
+    }
+  
+  }
+  .section-container-content-title {
+    font-family: "Fraunces";
+    padding: 13px 0;
+    font-size: 2rem;
+  }
+  
+  @media screen and (min-width: 1440px) {
+    .section-container-content-title {
+      font-size: 3.5rem;
+    }
+  
+  }
+  .section-container-content-price {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    font-family: "Fraunces";
+  }
+  
+  .section-container-content-price h1 {
+    padding-right: 20px;
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+  }
+  
+  @media screen and (min-width: 1440px) {
+    .section-container-content-price h1 {
+      font-size: 2.5rem;
+    }
+  
+  }
+  .section-container-content-price p {
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+  }
+  
+  .section-container-content button {
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (min-width: 1440px) {
+    .section-container-content button {
+      height: 80px;
+      font-size: 1rem;
+    }
+  
+  }
+  .section-container-content button:hover {
+    background-color: hsl(158, 36%, 28%);
+    cursor: pointer;
+    transition: 0.8s;
+  }
+  
+  .section-container-content button p {
+    color: white;
+    font-weight: 600;
+    font-family: "Montserrat";
+  }
+  
+  @media screen and (min-width: 1440px) {
+    .section-container {
+      width: 50%;
+    }
+      
+  } /*# sourceMappingURL=style.css.map */
+  
+  /*# sourceMappingURL=style.sass.map */
+  
